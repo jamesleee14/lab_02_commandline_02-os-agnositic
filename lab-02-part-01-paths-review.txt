@@ -49,45 +49,48 @@ $cd Desktop/
 ==========
 7. If you're in your home directory, what's the relative path to your Desktop directory?
 ----------
-
+$ cd Desktop
 
 ==========
 8. If you're in your home directory, how would you create a new directory on your desktop called stuff without changing your directory?  Write your command below.
-----------
-
+---------- 
+I'm not too sure how to make one without changing my directory, but to do it with changing my directory, I would first go to my deskstop directory by doing $cd Desktop/ and then typing, $mkdir stuff. Then, I would do ls to check to see if a new directory called "stuff" is in my desktop directory.
 
 
 ==========
 9. If you're in your root directory, how would you create a new directory on your desktop called more-stuff without changing your directory?  Write your command below.
 ----------
-
+Like the question above, I'm not too sure how to do that. I would first just move to the directory by doing $cd Desktop/ and then doing $mkdir more-stuff.
 
 
 ==========
 10. If you're in your Desktop directory, how would you create a new directory on your desktop called even-more-stuff?  Write your command below.
 ----------
-
+I would do $mkdir even-more-stuff.
 
 
 ==========
 11. If you're in your home directory, how would you change to the directory right above it using a relative path (it should bring you to /Users)?  Write your command below.
 ----------
-
+I would do $cd ..
 
 
 ==========
 12. If you're in your Desktop directory, how would you change to two directories right above it (again, this should be /Users) using a relative path?  Write your command below.
 ----------
-
+I would do $cd../..
 
 
 ==========
 13. What's the shortcut for changing to the directory that you were just previously in?  For example, if I were in /Volumes... and I changed to /Users/profesor/Desktop, what's a quick way of changing to /Volumes without writing something like cd /Volumes?
 ----------
+I would press the UP arrow key and then press the ENTER key. I would also do UP and/or DOWN for when DOWN is necessary(if I go too far from the file I wanted) and then press ENTER key.
+
 
 ==========
 14. How would you show all of the files (including hidden ones) with detailed (long) information that are on you're Desktop if you're in your home directory?  Write your command below.
 ----------
+I would do $ls Desktop/ so that it can show the files in my desktop directory while I'm in my home directory. However, I am not sure if this showed my hidden files as well.
 
 ==========
 Optional Challenge:
